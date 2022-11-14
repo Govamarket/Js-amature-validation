@@ -1,0 +1,71 @@
+input{
+    padding: 1vh;
+}
+ .error{
+    display: none;
+ }
+
+ /* .box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+ } */
+  
+ form input{
+    background-color: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1vh;
+    text-align: center;
+    width: 70%;
+    
+ }
+
+ form button{
+    background-color:rgb(116, 116, 222);
+    outline: none;
+    border: 0;
+    padding: 1vh;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: pink;
+  }
+
+  body{
+    display: flex;
+justify-content: center;
+padding-top: 3vh;
+height: 10vh;
+background-color: grey;
+  }
+
+  form{
+    background: linear-gradient(to right, rgb(241, 241, 241), transparent);
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+  }
+
+  h2{
+    font-family: monospace;
+  }
+
+  

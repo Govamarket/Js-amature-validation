@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form name="forms" action="" onsubmit="validate();">
+            <h2>login</h2>
+            <div class="row">
+                <div class="col">
+                    
+                    <input type="text" id="username" name="username" value="" placeholder="username" >
+                    <p id="errormessages" hidden></p>
+                </div><br>
+
+                <div class="col">
+                    
+                    <input type="text" name="email" id="email" value="" placeholder="email" required>
+                    <p id="error" hidden>Invalid</p>
+                </div><br>
+
+                <div class="col">
+                    
+                    <input type="password" id="psw1" value="" placeholder="password">
+                    <p class="errormessages" hidden></p>
+                </div><br>
+
+                <div class="col">
+                    
+                    <input type="password" id="psw2" value="" placeholder="confirm" required>
+                    <p id="errormessages" hidden></p>
+                </div>
+            </div> <br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
